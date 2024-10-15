@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,100;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
-<body class="container">
+<body class="container h-screen">
     <!-- Header -->
     <header class="h-auto">
         <!-- Navbar Section-->
@@ -47,7 +47,7 @@
                 <h1 class="font-bold text-[38px] lg:text-start md:text-center md:text-[55px]">
                     Manage Payroll <br> Like an Expert
                 </h1>
-                <p class="text-fontGray text-base mt-5 lg:text-start md:text-center">
+                <p class="text-fontGray text-base mt-5 lg:text-start md:text-center leading-8">
                     Payna is helping you to setting up
                     the payroll without <br> required any finance
                     skills or knowledge before
@@ -67,7 +67,7 @@
     <!-- Testimoni -->
      <section class="lg:flex lg:justify-between lg:items-center px-6 lg:px-52 md:px-10 mt-12">
         <div class="text-center md:text-left mb-[30px] lg:mb-0">
-            <h1 class="font-semibold text-base md:text-center lg:text-start lg:hidden">Trusted by Global Companies</h1>
+            <h1 class="font-semibold text-base text-start md:text-center lg:text-start lg:hidden">Trusted by Global Companies</h1>
             <h1 class="font-semibold text-base md:text-center lg:text-start  hidden lg:block">Trusted by <br> Global Companies</h1>
         </div>
         <div class="flex items-center justify-start md:justify-between gap-6 flex-wrap">
@@ -78,6 +78,117 @@
             <img src="public/asssets/images/google2.png" alt="Testimoni" class="h-5 md:h-7">
         </div>
      </section>
+
+     <!-- Services -->
+        <section class="px-6 lg:px-52 md:px-10 pt-20">
+            <div class="text-center">
+                <h1 class="font-bold text-fontOrange text-base mb-[6px]">Work Better</h1>
+                <h2 class="font-bold text-[28px] mb-5">For Your Business</h2>
+                <p class="text-base text-fontGray">We did research what your company needs and here we are providing all of them just for you</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[60px] mt-[50px]">
+                <!-- Share Insight -->
+                <div class="flex items-start gap-6">
+                    <img src="public/asssets/images/insight.svg" alt="Icon" class="w-15">
+                    <div class="flex flex-col gap-3">
+                        <h2 class="font-semibold text-[20px]">Share Insight</h2>
+                        <p class="text-fontGray text-base leading-8">Working together with your team to make decisions</p>
+                    </div>
+                </div>
+                <!-- Offline Mode -->
+                <div class="flex items-start gap-6">
+                    <img src="public/asssets/images/offline.svg" alt="Icon" class="w-15">
+                    <div class="flex flex-col gap-3">
+                        <h2 class="font-semibold text-[20px]">Offline Mode</h2>
+                        <p class="text-fontGray text-base leading-8">Use the feature while off from internet? sure can</p>
+                    </div>
+                </div>
+                <!-- Kanban Mode -->
+                <div class="flex items-start gap-6">
+                    <img src="public/asssets/images/kanban.png" alt="Icon" class="w-15">
+                    <div class="flex flex-col gap-3">
+                        <h2 class="font-semibold text-[20px]">Kanban Mode</h2>
+                        <p class="text-fontGray text-base leading-8">Organize the report that easy to be understand</p>
+                    </div>
+                </div>
+                <!-- Track Leads -->
+                <div class="flex items-start gap-6">
+                    <img src="public/asssets/images/track.png" alt="Icon" class="w-15">
+                    <div class="flex flex-col gap-3">
+                        <h2 class="font-semibold text-[20px]">Track Leads</h2>
+                        <p class="text-fontGray text-base leading-8">See where your money goes and comes in business</p>
+                    </div>
+                </div>
+                <!-- 189 Country -->
+                <div class="flex items-start gap-6">
+                    <img src="public/asssets/images/country.png" alt="Icon" class="w-15">
+                    <div class="flex flex-col gap-3">
+                        <h2 class="font-semibold text-[20px]">Track Leads</h2>
+                        <p class="text-fontGray text-base leading-8">Working together worldwide people from anywhere</p>
+                    </div>
+                </div>
+                <!-- Reward System -->
+                <div class="flex items-start gap-6">
+                    <img src="public/asssets/images/track.png" alt="Icon" class="w-15">
+                    <div class="flex flex-col gap-3">
+                        <h2 class="font-semibold text-[20px]">Reward System</h2>
+                        <p class="text-fontGray text-base leading-8">Motivate your team working harder and receive a gift</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      <!-- Demo Video -->
+        <section class="px-6 pb-10 lg:px-52 md:px-10 pt-20 flex flex-col justify-center relative">
+            <div class="max-w-[500px] mx-auto">
+                <div class="flex justify-center">
+                    <!-- Video -->
+                    <div class="w-[321.61px] h-[227.9] md:w-[522px] md:[369.9px] lg:w-[635.04] lg:h-[450] relative">
+                        <video id="myVideo" src="public/asssets/videos/Rick Roll (Different link + no ads).mp4" poster="public/asssets/images/video.png" class="rounded-2xl"></video>
+                        
+                        <button id="playButton" class="absolute inset-0 flex items-center justify-center cursor-pointer z-10">
+                            <img src="public/asssets/icons/btn_play.png" alt="Play" class="w-[60px] md:w-[70px] transition-transform duration-300 ease-in-out hover:scale-110">
+                        </button>
+                    </div>
+                </div>
+                <!-- Email & Button -->
+                <div class="flex flex-col justify-items-center my-10">
+                    <div>
+                        <h1 class="font-bold text-center text-base text-fontOrange mb-[6px]">Save More Time</h1>
+                        <h2 class="font-bold text-center text-[28px] mb-5">And Boost Productivity</h2>
+                        <p class="text-base text-center text-fontGray leading-8">Your employees can bring any success into your business, so we need to take care of them</p>
+                    </div>
+                    <div class="flex flex-col justify-center md:flex-row mt-10 gap-3 md:relative">
+                        <div class="relative md:absolute md:left-6 md:w-[400px]">
+                            <input id="email" type="email" class="py-3 px-6 w-full bg-gray rounded-full peer">
+                            <label for="email" class="absolute left-6 top-1/2 -translate-y-1/2 text-base text-fontGray cursor-text peer-focus:hidden">Email Address</label>
+                        </div>
+                        <button class="py-3 px-6 bg-primary text-white rounded-full md:absolute md:right-6">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Button Play Video -->
+    <script>
+        const video = document.getElementById('myVideo');
+        const playButton = document.getElementById('playButton');
+
+        function togglePlay() {
+            if (video.paused) {
+                video.play();
+                playButton.classList.add('hidden'); 
+            } else {
+                video.pause();
+                playButton.classList.remove('hidden'); 
+            }
+        }
+
+        playButton.addEventListener('click', togglePlay);
+
+        video.addEventListener('click', togglePlay);
+
+    </script>
     
 </body>
 </html>
